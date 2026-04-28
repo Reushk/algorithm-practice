@@ -28,5 +28,18 @@ class Solution:
                 return True
             seen.add(i)
         return False
+""""
+another solution
+""""
 
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+
+        if len(s) != len(t):
+            return False
+        d = {}
+        for i in range(s):
+            d[s[i]] = d.get(s[i],0) + 1
+            d[t[i]] = d.get(t[i],0) - 1
+        return all(value == 0 for value in d.values())
         
