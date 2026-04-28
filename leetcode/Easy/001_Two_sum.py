@@ -1,5 +1,7 @@
 """"
-
+problem: Two sum
+Difficulty: Easy
+Topic: Array, Hash table
 """"
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -15,7 +17,7 @@ class Solution:
         return l
 
 """"
-other answer
+another solution
 """"
 
 class Solution:
