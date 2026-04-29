@@ -1,7 +1,7 @@
 """"
-
+problem: group anagrams
 difficulty:medium
-
+topic: array,hash table
 """"
 
 class Solution:
